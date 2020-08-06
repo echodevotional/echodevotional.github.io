@@ -1,0 +1,24 @@
+{
+	"name": "echo-devotional",
+	"version": "3.0.0",
+	"license": "BSD-Protection",
+	"dependencies": {
+		"bootstrap": "3.3.7",
+		"propellerkit": "^1.3.1",
+		"font-awesome": "4.7.0",
+		"jquery": "3.5.1",
+		"lodash": "4.17.19",
+		"luxon": "1.19.3",
+		"vue": "2.6.11"
+	},
+	"devDependencies": {
+		"grunt": "^1.1.0",
+		"grunt-contrib-clean": "^2.0.0",
+		"grunt-contrib-concat": "^1.0.1",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-contrib-cssmin": "^3.0.0",
+		"grunt-contrib-jshint": "^2.1.0",
+		"grunt-contrib-watch": "^1.1.0",
+		"grunt-terser": "^1.0.0"
+	}
+}

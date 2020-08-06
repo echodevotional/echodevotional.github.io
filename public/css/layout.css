@@ -1,0 +1,254 @@
+/**
+ *
+ * @preserve
+ * @copyright Copyright (c) 2018. Barbed Coil, LLC.  All rights reserved.
+ *
+ */
+
+body
+{
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+
+.navbar-brand-right-min
+{
+	padding-right: 10px !important;
+}
+
+.navbar-brand-min
+{
+	padding-left: 10px !important; padding-right: 10px !important;
+}
+
+.nav-links
+{
+	font-size: .8em;
+}
+
+.nav-links.home
+{
+	margin-left: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists
+   will truncate terms that are too long to fit in the left column
+*/
+.dl-horizontal dt
+{
+	white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea
+{
+	max-width: 380px;
+}
+
+.text-left
+{
+	text-align: left;
+}
+
+.text-left-bold
+{
+	text-align: left;
+	font-weight: bold;
+}
+
+.text-left-bold-colorized
+{
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #337ab7;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.text-center-bold
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.text-right
+{
+	text-align: right;
+}
+
+.text-right-field
+{
+	text-align: right;
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+}
+
+.text-right-bold
+{
+	text-align: right;
+	font-weight: bold;
+	font-size: .85em
+}
+
+.text-right-bold2
+{
+	text-align: right;
+	font-weight: bold;
+}
+
+.dead-margin
+{
+	margin: 0 !important;
+}
+
+.field-spacer
+{
+	margin-right: 20px !important;
+}
+
+.field-help
+{
+	font-size: small;
+	font-weight: bold;
+}
+
+.field-static
+{
+	font-size: medium;
+	font-weight: bolder;
+}
+
+.field-subtitle
+{
+	color: black;
+	font-size: medium;
+	font-weight: bold;
+}
+
+.field-subtitle-men
+{
+	color: #194e7e;
+	font-size: medium;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.field-subtitle-women
+{
+	color: maroon;
+	font-size: medium;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.field-subtitle-meetings
+{
+	margin-left: 6px;
+	color: #F26522 !important;
+	font-size: medium;
+	font-weight: bold;
+	opacity: 1;
+}
+
+.list-group-min-padding
+{
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;
+}
+
+.list-group-text-fmt
+{
+	opacity: 1;
+}
+
+/* mobile, all devices - top navigation */
+@media only screen and (min-device-width: 0) and (max-device-width: 1024px)
+{
+	.fa-flag-o,
+	.glyphicon-flag
+	{
+		font-size: 20px;
+		color: #337ab7;
+	}
+
+	.glyphicon-log-in
+	{
+		font-size: 20px;
+		color: #337ab7;
+	}
+	.glyphicon-log-out
+	{
+		font-size: 20px;
+		color: #bf360c;
+	}
+}
+
+/* desktop - top navigation */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 3024px)
+{
+	.fa-flag-o,
+	.glyphicon-flag
+	{
+		font-size: 24px;
+		color: #337ab7;
+	}
+
+	.glyphicon-log-in
+	{
+		font-size: 24px;
+		color: #337ab7;
+	}
+	.glyphicon-log-out
+	{
+		font-size: 24px;
+		color: #bf360c;
+	}
+}
+
+
+/* M E D I A   Q U E R I E S */
+
+/* GENERAL MOBILE - hide photo approval, default is to show */
+@media screen
+and (min-device-width: 1024px)
+and (max-device-width: 0)
+{
+}
+
+/* GENERAL PORTRAIT MOBILE layout, default is landscape */
+@media screen
+and (min-device-width: 0)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+{
+}
+
+/* GENERAL PORTRAIT MOBILE layout, default is landscape */
+@media screen
+and (min-device-width: 0)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+{
+}
+
+/* ipad landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+{
+}
+
+/* ipad landscape */
+@media only screen
+and (min-device-width : 1025px)
+and (max-device-width : 3024px)
+and (orientation : landscape)
+{
+}

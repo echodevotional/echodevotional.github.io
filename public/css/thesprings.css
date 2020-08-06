@@ -1,0 +1,87 @@
+/**
+ *
+ * @preserve
+ * @copyright Copyright (c) 2018. Barbed Coil, LLC.  All rights reserved.
+ *
+ */
+
+/*
+	These styles are for The Springs to match quad colors
+ */
+
+
+/* PROPELLER
+
+br
+div style="margin-left: 10px; width: 250px; height: 55px;"
+button.btn.pmd-btn-raised.btn-quad1.btn-block.pmd-ripple-effect.devotion-button-grande Quad 1 Button
+
+*/
+
+/* -- Buttons Quad Purple - Quad1 --*/
+.btn-quad1,.dropdown-toggle.btn-quad1 { background-color: #2E3192;}
+.btn-quad1:hover,.dropdown-toggle.btn-quad1:hover { background-color: #202266;}
+.btn-quad1:active,.dropdown-toggle.btn-quad1:active,.btn-quad1.active,.dropdown-toggle.btn-quad1.active { background-color: #202266;}
+.btn-quad1:focus,.dropdown-toggle.btn-quad1:focus { background-color: #ffa000;}
+.btn-quad1:disabled,.dropdown-toggle.btn-quad1:disabled,.btn-quad1.disabled,.dropdown-toggle.btn-quad1.disabled, .btn-quad1[disabled],.dropdown-toggle.btn-quad1[disabled] { background-color: #b3b3b3;}
+.btn-quad1 .ink,.dropdown-toggle.btn-quad1 .ink { background-color: #182451;}
+
+/* -- Buttons flat Warning --*/
+/*.pmd-btn-flat.btn-quad1 { color: #ffc107; background-color: transparent;}*/
+/*.pmd-btn-flat.btn-quad1:hover { color: #202266; background-color: #e5e5e5;}*/
+/*.pmd-btn-flat.btn-quad1:active,.pmd-btn-flat.btn-quad1.active { color: #ffa000; background-color: #cccccc;}*/
+/*.pmd-btn-flat.btn-quad1:focus { color: #ff8f00; background-color: #cccccc;}*/
+/*.pmd-btn-flat.btn-quad1 .ink { background-color: #808080;}*/
+
+/*-- Button warning outline --*/
+/*.pmd-btn-outline.btn-quad1{ border: solid 1px #2E3192; background-color:transparent; color:#2E3192;}*/
+/*.pmd-btn-outline.btn-quad1:hover, .pmd-btn-outline.btn-quad1:focus { border: solid 1px #2E3192; background-color:#2E3192; color:#fff;}*/
+
+
+/* CUSTOM BASE BUTTON */
+
+.btn-quad1 {
+	color: #ffffff;
+	background-color: #2E3192;
+	border-color: #130269;
+}
+
+.btn-quad1:hover,
+.btn-quad1:focus,
+.btn-quad1:active,
+.btn-quad1.active,
+.open .dropdown-toggle.btn-quad1 {
+	color: #ffffff;
+	background-color: #49247A;
+	border-color: #130269;
+}
+
+.btn-quad1:active,
+.btn-quad1.active,
+.open .dropdown-toggle.btn-quad1 {
+	background-image: none;
+}
+
+.btn-quad1.disabled,
+.btn-quad1[disabled],
+fieldset[disabled] .btn-quad1,
+.btn-quad1.disabled:hover,
+.btn-quad1[disabled]:hover,
+fieldset[disabled] .btn-quad1:hover,
+.btn-quad1.disabled:focus,
+.btn-quad1[disabled]:focus,
+fieldset[disabled] .btn-quad1:focus,
+.btn-quad1.disabled:active,
+.btn-quad1[disabled]:active,
+fieldset[disabled] .btn-quad1:active,
+.btn-quad1.disabled.active,
+.btn-quad1[disabled].active,
+fieldset[disabled] .btn-quad1.active {
+	background-color: #2E3192;
+	border-color: #130269;
+}
+
+.btn-quad1 .badge {
+	color: #2E3192;
+	background-color: #ffffff;
+}

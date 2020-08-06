@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Echo Devotional</title>
+
+    <link href="public/images/touch-icon-iphone.png" rel="apple-touch-icon" />
+    <link href="public/images/touch-icon-ipad.png" rel="apple-touch-icon" sizes="76x76" />
+    <link href="public/images/touch-icon-iphone-retina.png" rel="apple-touch-icon" sizes="120x120" />
+    <link href="public/images/touch-icon-ipad-retina.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="public/lib/propellerkit/css/propeller.min.css" rel="stylesheet" />
+
+    <style>
+        .quad-action-link0
+        {
+            color: black !important;
+            font-weight: bold;
+            opacity: 1;
+        }
+
+        .quad-action-link1
+        {
+            color: #2E3192 !important;
+            font-weight: bold;
+            opacity: 1;
+        }
+
+        .quad-action-link2
+        {
+            color: #ED1C24 !important;
+            font-weight: bold;
+            opacity: 1;
+        }
+
+        .quad-action-link3
+        {
+            color: #F26522 !important;
+            font-weight: bold;
+            opacity: 1;
+        }
+
+        .quad-action-link4
+        {
+            color: #8CC63F !important;
+            font-weight: bold;
+            opacity: 1;
+        }
+
+        .hr
+        {
+            padding: 0;
+            margin-bottom: 0;
+        }
+    </style>
+
+    <link href="public/css/layout.min.css" rel="stylesheet" />
+
+    <script src="public/lib/axios/axios.min.js" type="text/javascript"></script>
+    <script src="public/lib/lodash/lodash.min.js" type="text/javascript"></script>
+    <script src="public/lib/luxon/luxon.min.js" type="text/javascript"></script>
+    <script src="public/lib/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="public/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="public/lib/propellerkit/js/propeller.min.js" type="text/javascript"></script>
+    <script src="public/lib/vue/vue.js" type="text/javascript"></script>
+
+    <!--	{{if .DevFlag }}-->
+    <script src="public/js/site/shared.js" type="text/javascript"></script>
+    <!--	{{else}}-->
+    <!--		<script src="public/js/site/shared.min.js" type="text/javascript"></script>-->
+    <!--	{{end}}-->
+
+</head>
+
+<body>
+    <div class="nav navbar navbar-fixed-top" id="appView">
+        <div class="navbar-header">
+            <span class="navbar-brand" style="padding-right: 10px !important;" title="Home">
+                <a class="nav-links home" href="index.html">
+                    <i class="material-icons md-dark pmd-sm quad-action-link0">home</i>
+                </a>
+            </span>
+            <span class="navbar-brand" style="padding-left: 10px !important; padding-right: 10px !important;" title="echo devotion">
+                <a class="nav-links" href="devotions.html">
+                    <i class="material-icons md-dark pmd-sm quad-action-fore1">book</i>
+                </a>
+            </span>
+            <span class="navbar-brand" style="padding-left: 10px !important; padding-right: 10px !important;" title="Quads">
+                <a class="nav-links" href="quads.html">
+                    <i class="material-icons md-dark pmd-sm quad-action-fore2">border_all</i>
+                </a>
+            </span>
+            <span class="navbar-brand" style="padding-left: 10px !important; padding-right: 10px !important;" title="Quads Vision">
+                <a class="nav-links" href="vision.html">
+                    <i class="material-icons md-dark pmd-sm quad-action-fore4">visibility</i>
+                </a>
+            </span>
+        </div>
+    </div>
+
+    <!--This is where the other templates get inserted-->
+    <div class="container-fluid" style="padding-left: 0; padding-right: 0;">
+        <div class="row center-block" id="pageView">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="list-group pmd-card-list pmd-z-depth-1">
+
+                    <a class="list-group-item pmd-ripple-effect" href="devotions.html" style="padding-top:8px; padding-bottom: 9px;">
+                        <h3 class="list-group-item-heading pmd-display1 quad-action-link1">Devotions - Small Groups &nbsp;&nbsp;
+                            <i class="material-icons md-dark pmd-sm quad-action-link1">book</i>
+                        </h3>
+                        <p class="list-group-item-text">Reproducing the Original</p>
+                    </a>
+
+                    <hr class="hr" style="margin: 5px;">
+                    <a class="list-group-item pmd-ripple-effect" href="quads.html" style="padding-top:8px; padding-bottom: 9px;">
+                        <h3 class="list-group-item-heading pmd-display1 quad-action-link2">Small Groups - Quads &nbsp;&nbsp;
+                            <i class="material-icons md-dark pmd-sm quad-action-link2">border_all</i>
+                        </h3>
+                        <p class="list-group-item-text">Small Group Discipleship for Women and Men</p>
+                    </a>
+
+                    <hr class="hr" style="margin: 5px;">
+                    <a class="list-group-item pmd-ripple-effect" href="vision.html" style="padding-top:8px; padding-bottom: 9px;">
+                        <h3 class="list-group-item-heading pmd-display1 quad-action-link4">Vision and Values &nbsp;&nbsp;
+                            <i class="material-icons md-dark pmd-sm quad-action-link4">visibility</i>
+                        </h3>
+                        <p class="list-group-item-text">Small Groups Vision and Values</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
