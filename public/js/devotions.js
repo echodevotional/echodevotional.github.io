@@ -12,7 +12,9 @@
 			bibleGatewayUrlSufx: '&version=51',
 			currentDateFormatted: '',
 			bibleMonth: 0,
-			bibleDay: 0
+			bibleDay: 0,
+			currentYear: 0,
+			copyright: ''
 		},
 
 		methods:
@@ -37,7 +39,9 @@
 			this.currentDateFormatted = dt.toFormat('DDD');
 			this.bibleMonth = dt.month;
 			this.bibleDay = dt.day;
-			console.log(`devotions initialized.scripture: Month = ${this.bibleMonth}  Day = ${this.bibleDay}`);
+			this.currentYear = dt.year;
+			this.copyright = `&copy; 2017-${this.currentYear} Hope for the Heart. All Rights Reserved. v2023.12.02.`
+			console.log(`initialized: Month = ${this.bibleMonth}  Day = ${this.bibleDay}  Year = ${this.currentYear}`);
 		}
 	});
 
