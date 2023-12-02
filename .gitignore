@@ -1,5 +1,7 @@
 # Dependency directories
 /node_modules
+# /public/lib/**/*
+# public/lib/**/*
 
 # Build results
 [Dd]ebug/

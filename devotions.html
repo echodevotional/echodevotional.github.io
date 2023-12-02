@@ -12,6 +12,7 @@
     <link href="public/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link href="public/lib/propellerkit/css/propeller.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="public/images/favicon.ico" style="color: #CCCCFF;"/>
 
     <style>
         .quad-action-fore1
@@ -37,7 +38,6 @@
     <link href="public/css/layout.min.css" rel="stylesheet" />
     <link href="public/css/thesprings.min.css" rel="stylesheet">
 
-    <script src="public/lib/axios/axios.min.js" type="text/javascript"></script>
     <script src="public/lib/lodash/lodash.min.js" type="text/javascript"></script>
     <script src="public/lib/luxon/luxon.min.js" type="text/javascript"></script>
     <script src="public/lib/jquery/jquery.min.js" type="text/javascript"></script>
@@ -61,19 +61,19 @@
                         <i class="material-icons md-dark pmd-sm quad-action-link0">home</i>
                     </a>
                 </span>
-            <span class="navbar-brand" style="padding-left: 10px !important; padding-right: 10px !important;" title="echo devotion">
+            <span class="navbar-brand" style="padding-left: 10px !important; padding-right: 10px !important;" title="Devotions">
                     <a class="nav-links" href="devotions.html">
                         <i class="material-icons md-dark pmd-sm quad-action-fore1">book</i>
                     </a>
                 </span>
-            <span class="navbar-brand" style="padding-left: 10px !important; padding-right: 10px !important;" title="Quads">
-                    <a class="nav-links" href="quads.html">
-                        <i class="material-icons md-dark pmd-sm quad-action-fore2">border_all</i>
+            <span class="navbar-brand" style="padding-left: 10px !important; padding-right: 10px !important;" title="Why">
+                    <a class="nav-links" href="why.html">
+                        <i class="material-icons md-dark pmd-sm quad-action-fore4">visibility</i>
                     </a>
                 </span>
-            <span class="navbar-brand" style="padding-left: 10px !important; padding-right: 10px !important;" title="Quads Vision">
-                    <a class="nav-links" href="vision.html">
-                        <i class="material-icons md-dark pmd-sm quad-action-fore4">visibility</i>
+            <span class="navbar-brand" style="padding-left: 10px !important; padding-right: 10px !important;" title="How">
+                    <a class="nav-links" href="how.html">
+                        <i class="material-icons md-dark pmd-sm quad-action-fore2">border_all</i>
                     </a>
                 </span>
         </div>
@@ -84,7 +84,7 @@
         <div class="row center-block" id="pageView">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h1 class="quad-action-fore1">
-                    Devotions - Small Groups
+                    Devotions - Scripture Reading <span class="small">(choose one)</span>
                 </h1>
                 <!-- Friday, October 06, 2017 -->
                 <h2 style="margin-left: 20px;" v-text="currentDateFormatted"></h2>
@@ -93,14 +93,14 @@
                 <div style="margin-left: 10px; width: 250px; height: 55px;">
                     <a class="btn pmd-btn-raised btn-quad1 btn-block pmd-ripple-effect devotion-button-grande"
                         :href="getCompactDailyScripture(bibleMonth, bibleDay)"
-                        target="_blank">Compact</a>
+                        target="_blank">A Few Verses</a>
                 </div>
                 <br>
                 <!-- Grandes/Complete Scripture -->
                 <div style="margin-left: 10px; width: 250px; height: 55px;">
                     <a class="btn pmd-btn-raised btn-quad1 btn-block pmd-ripple-effect devotion-button-grande"
                         :href="getCompleteDailyScripture(bibleMonth, bibleDay)"
-                        target="_blank">Complete</a>
+                        target="_blank">A Couple Chapters</a>
                 </div>
             </div>
         </div>
@@ -110,6 +110,10 @@
     <!--
     <script src="public/js/devotions.min.js" type="text/javascript"></script>
     -->
+
+    <div class="quad-footer pmd-sm small text-muted">
+        &copy; 2017-2024 The Springs. All Rights Reserved. v2023.12.01.
+    </div>
 
 </body>
 </html>
