@@ -31,9 +31,6 @@
 
 		},
 
-
-		/* V U E   E V E N T S */
-
 		created: function ()
 		{
 			let dt = luxon.DateTime.local();
